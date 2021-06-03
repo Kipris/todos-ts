@@ -3,4 +3,5 @@ export interface Todo {
   completed: boolean;
   title: string;
   searchedTitle?: string[];
+  searchInput?: string;
 }
