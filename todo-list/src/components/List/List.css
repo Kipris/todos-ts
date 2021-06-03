@@ -1,0 +1,14 @@
+.item-enter {
+  transform: translateX(-100%);
+}
+.item-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms ease-in;
+}
+.item-exit {
+  transform: translateX(0);
+}
+.item-exit-active {
+  transform: translateX(-100%);
+  transition: transform 250ms ease-in;
+}
